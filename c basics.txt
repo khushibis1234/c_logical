@@ -1,0 +1,92 @@
+1) Print "hello world"?
+
+#include<stdio.h>
+int main (){
+    printf("hello world");
+    return 0;
+}
+
+2) Print "welcome to india"?
+
+#include<stdio.h>
+int main (){
+    printf("welcome to india");
+    return 0;
+}
+
+3) Print "food name"?
+
+#include<stdio.h>
+int main (){
+    printf("5 Foods name\n");
+    printf("\nItalian food");
+    printf("\nchinese food");
+    printf("\nGujrati food");
+    printf("\nRajasthani food");
+    printf("\nBengali food");
+    return 0;
+}
+
+4) Print "friends name" ?
+#include<stdio.h>
+int main (){
+    printf("5 Friends name\n");
+    printf("\nSneha\n");
+    printf("neha\n");
+    printf("Divya\n");
+    printf("Ruchi\n");
+    printf("Riya\n");
+    return 0;
+}
+
+5) Print "family name"?
+
+#include<stdio.h>
+int main (){
+    printf("5 Family names\n");
+    printf("\nFather");
+    printf("\nMother");
+    printf("\nSister");
+    printf("\nBrother");
+    printf("\nGrandfather");
+    return 0;
+}
+
+6) Print "city names"?
+
+#include<stdio.h>
+int main(){
+    printf("5 City names\n");
+    printf("Bikaner ");
+    printf("Ajmer ");
+    printf("Jaipur  ");
+    printf("Kolkata ");
+    printf("Nagour ");
+    return 0;
+}
+
+7) Print "State names"?
+
+#include<stdio.h>
+int main(){
+    printf("5 States names\n");
+    printf("Rajasthan ");
+    printf("West bengal ");
+    printf("Assam ");
+    printf("Madhya pradesh ");
+    printf("Andhra pradesh ");
+    return 0;
+}
+
+8)What is c?
+=>C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applicon. C is a mother language. C is a structural lamguage,it have a particular structure.
+
+9)Features in c?
+=>Simple and Efficient.
+ Fast
+ Portability
+ Extensibility
+ Function-Rich Libraries
+ Dynamic Memory Management
+ Modularity With Structured Language
+ Mid-Level Programming Language
