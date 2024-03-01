@@ -79,7 +79,7 @@ int main(){
 }
 
 8)What is c?
-=>C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applicon. C is a mother language. C is a structural lamguage,it have a particular structure.
+=>C is a high-level and general-purpose programming language that is ideal for developing firmware or portable application. C is a mother language. C is a structural language,it have a particular structure.
 
 9)Features in c?
 =>Simple and Efficient.
