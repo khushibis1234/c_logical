@@ -1,0 +1,736 @@
+1)1)
+1 :sunday 
+2 :monday 
+
+week days 
+#include<stdio.h>
+int main (){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    
+    if(a==1){
+        printf("sunday");
+    }
+     else if(a==2){
+        printf("monday");
+    }
+    else if(a==3){
+        printf("tuesday");
+    }
+    
+    else if(a==4){
+        printf("wednesday");
+    }
+    else if(a==5){
+        printf("thursday");
+    }
+    else if(a==6){
+        printf("friday");
+    }
+    else if (a==7){
+        printf("saturday");
+    }
+    else {
+        printf("mismatch");
+    }
+    return 0;
+}
+---------------------------------------------
+2)
+12 month 
+#include<stdio.h>
+int main (){
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    
+    if(a==1){
+        printf("january");
+    }
+     else if(a==2){
+        printf("february");
+    }
+    else if(a==3){
+        printf("march");
+    }
+    
+    else if(a==4){
+        printf("april");
+    }
+    else if(a==5){
+        printf("may");
+    }
+    else if(a==6){
+        printf("june");
+    }
+    else if (a==7){
+        printf("july");
+    }
+    else if(a==8){
+        printf("august");
+    }
+    else if(a==9){
+        printf("sep");
+    }
+    else if(a==10){
+        printf("oct");
+    }
+    else if(a==11){
+        printf("november");
+    }
+    else if(a==12){
+        printf("december");
+    }
+    else {
+        printf("mismatch");
+    }
+    return 0;
+}
+
+--------------------------------------------------
+3)
+1---> 10 number 
+#include<stdio.h>
+int main ()
+{
+   int a;
+   printf("enter the value a");
+   scanf("%d",&a);
+   
+   if(a==1){
+   printf("one");
+   }
+    else if(a==2){
+        printf("two");
+    }
+    else if(a==3){
+        printf("three");
+    }
+    else if(a==4){
+        printf("four");
+    }
+    else if(a==5){
+        printf("five");
+    }
+     else if(a==6){
+        printf("six");
+    }
+    else if(a==7){
+        printf("seven");
+    }
+    else if(a==8){
+        printf("eight");
+    }
+    else if(a==9){
+        printf("nine");
+    }
+    else if(a==10){
+        printf("ten");
+    }
+    return 0;
+   
+}
+-----------------------------------------------------
+4)
+a : 
+b : 
+c : 
+d :
+e :
+
+input mismatch 
+#include<stdio.h>
+int main (){
+    char al;
+    printf("enter the character");
+    scanf("%c",&al);
+    
+    if(al=='a'){
+        printf("Audi");
+    }
+    else if(al=='b'){
+        printf("bentiley");
+    }
+    else if(al=='c'){
+        printf("creta");
+    }
+    else if(al=='d'){
+       printf("defender"); 
+    }
+    else if(al=='e'){
+        printf("ecco");
+    }
+    else{ 
+    printf("mismatch");
+   }
+   return 0;
+}
+---------------------------------------------
+5)
+vowel consonant :
+a:vowel 
+e :vowel 
+i:vowel 
+o:vowel 
+u:vowel 
+
+consonant
+#include<stdio.h>
+int main ()
+{
+   char al;
+   printf("enter the value al");
+   scanf("%c",&al);
+   
+   if(al=='sa'){
+   printf("vowel");
+   }
+    else if(al=='e'){
+        printf("vowel");
+    }
+    else if(al=='i'){
+        printf("vowel");
+    }
+    else if(al=='o'){
+        printf("vowel");
+    }
+    else if(al=='u'){
+        printf("vowel");
+    }
+    else{
+        printf("consonent");
+    }
+    return 0;
+}
+    
+---------------------------------------------
+6)
+a :two number addition 
+s :two number substraction
+d :two number divide
+m : two number multiplication
+o :two number modular 
+#include<stdio.h>
+int main(){
+    char ac;
+    printf("enter the value of ac");
+    scanf("%c",&ac);
+    if(ac=='a'){
+    int a,b;
+    printf("enter the value of a and b");
+    scanf("%d%d",&a, &b);
+     int c=a+b;
+     printf(" addition%d\n",c);
+    }
+    else if(ac=='s'){
+        int a,b;
+    printf("enter the value of a and b");
+    scanf("%d%d",&a, &b);
+     int c=a-b;
+     printf(" substraction%d\n",c);
+     
+    }
+    else if(ac=='d'){
+        int a,b;
+    printf("enter the value of a and b");
+    scanf("%d%d",&a, &b);
+     int c=a/b;
+     printf(" divilde%d\n",c);
+     
+    }
+    
+    else if(ac=='m'){
+        int a,b;
+    printf("enter the value of a and b");
+    scanf("%d%d",&a, &b);
+     int c=a*b;
+     printf(" multiply%d\n",c);
+     
+    }
+    
+    else if(ac=='o'){
+        int a,b;
+    printf("enter the value of a and b");
+    scanf("%d%d",&a, &b);
+     int c=a%b;
+     printf(" moduler%d\n",c);
+     
+    }
+    return 0;
+    
+}
+
+
+---------------------------------------------
+7)
+s :swap two number without third varaible 
+#include<stdio.h>
+int main (){
+    char al;
+    printf("enter any character");
+    scanf("%c",&al);
+     if(al=='s'){
+         
+     
+    int a,b;
+    printf("enter  real  value of a and b");
+    scanf("%d%d",&a, &b);
+    
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    
+    printf("enter swap value of a%d",a);
+    printf("enter swap value of b%d",b);
+     }
+    return 0;
+}
+    
+    
+    
+    
+
+
+w :swap two number with third varaible 
+#include<stdio.h>
+int main (){
+    char al;
+    printf("enter any character");
+    scanf("%c",&al);
+     if(al=='w'){
+         
+     
+    int a,b,c;
+    printf("enter  real  value of a and b");
+    scanf("%d%d",&a, &b);
+    c=a
+    a=b;
+    b=c;
+    
+    
+    printf("enter swap value of a%d",a);
+    printf("enter swap value of b%d",b);
+     }
+
+   else{
+   printf("mismatch");
+   }
+    return 0;
+}
+    
+    
+
+input mismatch 
+-----------------------------------------------------
+8)
+C program to convert temperature from Fahrenheit to Celsius and Celsius to Fahrenheit
+celsius 
+f 
+c---f 
+ceclius 
+f---->c 
+#include<stdio.h>
+int main (){
+  char al;
+  printf("enter the character");
+  scanf("%c",&al);
+  
+  if(al=='f'){
+       int a;
+       printf(" enter the temp and celcius ");
+       scanf("%d",&a);
+       
+       int feh=(a - 32) * 5/9;
+       printf("enter the value of temp in fahrehiet%d",feh);
+      
+}
+return 0;
+}
+    
+    
+    
+9)Check whether the trainge , square , reactanlge (area & volume)
+->input area /volume 
+area 
+traingle square rectangle 
+square
+#include<stdio.h>
+int main (){
+  char al;
+  printf("enter the character");
+  scanf("%c",&al);
+  
+  if(al=='a'){
+     
+     int l,b;
+    printf("enter the value of l and b");
+    scanf("%d%d", &l, &b);
+    int area=l*b;
+    printf("area of rectangle is %d\n",area);
+    
+    int s;
+    printf("enter the value of side");
+    scanf("%d",&s);
+    int are=s*s;
+    printf("area of square is %d\n",are);
+    
+    int ba,h;
+    printf("enter the value of base and height");
+    scanf("%d%d",&ba, &h);
+    int ar=(ba*h)/2;
+    printf("area of triangle is %d",ar);
+    
+  }
+  
+  else if(al=='v'){
+  int s;
+  printf("enter the value of side of square");
+  scanf("%d",&s);
+  
+  int volume=s*s*s;
+  printf("enter the volume of square%d",volume);
+  
+  int b,h;
+  printf("enter the value of b and h");
+  scanf("%d%d",&b,&h);
+   
+  int vol=b*h;
+  printf("the volume of triangle%d",vol);
+
+ } 
+   return 0;
+}
+    
+    
+10)C program to enter student marks and find percentage and grade
+A college has the following rules for the grading system:
+5 marks (grade + %)
+1. Below 25 – F
+2. 25 to 45 – E
+3. 45 to 50 – D
+4. 50 to 60 – C
+5. 60 to 80 – B 
+6. Above 80 – A
+#include<stdio.h>
+int main (){
+   
+    int p,c,cp;
+    printf("enter the marks of physics chemistry and comp");
+    scanf("%d%d%d",&p, &c, &cp);
+    
+    
+   int total=(c+p+cp);
+   int per=(total/3);
+    
+    printf("per%d\n",per);
+    
+    
+    if(per>=80 ){
+        printf("A");
+    }
+    else if(per<=60){
+        printf(" B");
+    }
+    else if(per<=50){
+        printf(" C");
+    }
+    else if(per<=45){
+        printf("D");
+    }
+    else if(per<=25){
+        printf("E");
+    }
+    
+    else
+    {
+        printf("F");
+    }
+        
+     
+    
+return 0;    
+    
+    }
+
+11)Write a C program to read the roll no, name,fnname and marks of three subjects and calculate the total, percentage and division.
+Test Data :
+Input the Roll Number of the student :784
+student name : 
+fname:
+mname:
+address:
+contact:
+Input the marks of Physics, Chemistry and Computer Application : 70 80 90
+total: 
+precentage : % 
+division:
+#include<stdio.h>
+int main (){
+    int a;
+    printf("enter the roll no");
+    scanf("%d",&a);
+    
+    printf("name=neha\n");
+    printf("father's name=mohan\n");
+    printf("mother's name=sunita\n");
+    printf("adress= gopalpura\n");
+    printf("contact no=8976531021\n");
+    
+    
+    int p,c,cp;
+    printf("enter the marks of physics chemistry and comp");
+    scanf("%d%d%d",&p, &c, &cp);
+    
+    int total=(p+c+cp);
+    printf("total%d\n",total);
+    
+    int per=(total/3);
+    
+    printf("per%d\n",per);
+    
+    
+    if(per>=80 ){
+        printf(" 1st division");
+    }
+    else if(per>=60){
+        printf(" 2nd division");
+    }
+    else if(per>=40){
+        printf(" 3rd division");
+    }
+return 0;    
+    
+    }
+
+12) Time of Day Greeting
+Create a program that asks for the time of day (morning, afternoon, evening) and then greets the user accordingly. For example, "Good morning!" if the time is morning.
+#include<stdio.h>
+int main (){
+   
+    int t;
+    printf("enter the time phase :");
+    scanf("%d",&t);
+    if(t>=5){
+        printf("good morning");
+    }
+    else if(t>=12){
+        printf(" good afternoon");
+    }
+    else if(t>=6){
+        printf("good evening");
+    }
+    
+        
+     
+    
+return 0;    
+    
+    }
+13)
+electric city bill : 
+4 unit 
+40 
+1- 10 = 10% 
+11-20 =15% 
+21-40 =30% 
+50 =50% 
+
+output : 
+name:
+unit :3 
+amout 30 
+discout : 10% 
+total pay amount : 
+
+
+14)
+e :check number even or not 
+o :check number odd or not 
+v :check voter eligible 
+t :two number maximum 
+c :vowel and consonant 
+k :keyboard characters 
+	upper line 
+	mid line 
+	lower line 
+d :divisibilty check 5 and 2 both
+q :divisibilty check 7 and 15 anyone
+s :swap number
+	w :with variable 
+	i :without variable 
+#include<stdio.h>
+int main()
+{
+    char al;
+    printf("enter any character");
+    scanf(" %c",&al);
+    
+    if(al=='e'){
+        int a;
+        printf("enter the value of a");
+        scanf(" %d",&a);
+        if(a%2==0){
+            printf("even");
+        }
+        else{
+            printf("not");
+        }
+    }
+    else if(al=='o'){
+        int a;
+        printf("enter the value of a");
+        scanf("%d",&a);
+        if(a%2!=0){
+            printf("odd");
+        }
+        else{
+            printf("not");
+        }
+    }
+    
+    else if(al=='v'){
+        int a;
+        printf("enter the value of a");
+        scanf("%d",&a);
+        if(a>=18){
+        printf("elidigible");
+        }
+        else{
+            printf("not");
+        }
+        
+    }
+    
+    else if(al=='t'){
+        int a,b;
+        printf("enter the value of a and b");
+        scanf("%d%d",&a,&b);
+        
+        if(a>=b){
+            printf("a is max");
+        }
+        else {
+            printf("b is max");
+        }
+    } 
+    
+    else if(al=='c'){
+        char ch;
+        printf("enter the character");
+        scanf("%c",&ch);
+        
+        if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
+            printf("vowel");
+        }
+    }
+    
+    else if(al=='k'){
+        char ch;
+        printf("enter the character");
+        scanf(" %c",&ch);
+        
+        if(ch=='q'|| ch=='w' || ch=='e' || ch=='r' || ch=='t' || ch=='y' || ch=='u' || ch=='i' || ch=='o' || ch=='p'){
+    
+    printf("upper line");
+    
+        }
+       else if(ch=='a'|| ch=='s' || ch=='d' || ch=='f' || ch=='g' || ch=='h' || ch=='j' || ch=='k' || ch=='l'){
+    
+    printf("mid line");
+    }
+    else if(ch=='z'|| ch=='x' || ch=='c' || ch=='v' || ch=='b' || ch=='n' || ch== 'm'){
+        printf("lower line");
+    }
+    }
+ else if(al=='d'){
+        int a;
+        printf("enter the value of a");
+        scanf("%d",&a);
+        
+        if(a%5==0 && a%2==0){
+            printf("divisible");
+        }
+        else{
+            printf("not");
+        }
+        
+    }
+    else if(al=='q'){
+        int a;
+        printf("enter the value of a");
+        scanf("%d",&a);
+        
+        if(a%7==0 || a%15==0){
+            printf("divisible");
+        }
+        else{
+            printf("not");
+        }
+        
+    }
+    
+    else if(al=='s'){
+        char swap;
+        printf("enter the i for without and w for with variable");
+        scanf(" %c",&swap);
+        
+        if(swap=='i'){
+            
+        
+        int a,b;
+        printf("enter the real value of a and b");
+        scanf("%d%d",&a, &b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        printf("the swap of value of a %d",a);
+        printf("the swap value of b %d",b);
+        }
+        else if(swap=='w'){
+            int a,b,c;
+        printf("enter the real value of a and b");
+        scanf("%d%d",&a, &b);
+        c=a;
+        a=b;
+        b=c;
+        printf("the swap of value of a %d",a);
+        printf("the swap value of b %d",b);
+        }
+            
+        }
+
+    
+     return 0;
+}
+-----------------------------------------------------
+15)
+three number maximum 
+
+#include<stdio.h>
+int main ()
+{
+    int a=1, b=3, c=2;
+    if(a>b && a>c){
+        printf("a is max");
+    }
+    else if(b>a && b>c){
+        printf(" b is max");
+    }
+    else{
+        printf("c is max");
+    }
+    return 0;
+}
+
+16)
+five number maximum 
+equal :all elements are equal 
+when two number will then print 
+
+17)
+ten number maximum 
+
+
+
+---------------------------------------------
