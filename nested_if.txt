@@ -1,0 +1,105 @@
+
+----------------------------------------
+1 :
+1--->10 number 
+#include<stdio.h>
+int main (){
+int a=1;
+while(a<=10){
+    
+    printf("%d\n",a);
+    a++;
+}
+return 0;
+}
+
+2:
+98--->67 number 
+#include<stdio.h>
+int main (){
+int a=98;
+while(a>=67){
+    
+    printf("%d\n",a);
+    a--;
+}
+return 0;
+}
+
+
+3:
+starting point 
+ending point 
+#include <stdio.h>
+
+int main()
+{
+    int num1,num2;
+    printf("enter the start number ");
+    scanf("%d",&num1);
+    
+    printf("enter the last number");
+    scanf("%d",&num2);
+    
+    int a=num1;
+    while(a<=num2){
+        
+            printf("%d\n",a);
+        
+       a++; 
+    }
+    
+    return 0;
+}
+
+4 :
+10---->1 
+#include<stdio.h>
+int main (){
+int a=10;
+while(a>=1){
+    
+    printf("%d\n",a);
+    a--;
+}
+return 0;
+}
+
+5:
+67--->98#include<stdio.h>
+int main (){
+int a=67;
+while(a<=98){
+    
+    printf("%d\n",a);
+    a++;
+}
+return 0;
+}
+
+6 :
+starting 
+ending 
+reverse order 
+
+input mismatch 
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    
+    int rem,sum=0;;
+    while(num>0){
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    
+    printf("%d",sum);
+    
+    
+    return 0;
+
