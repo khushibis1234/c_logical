@@ -1,0 +1,473 @@
+1)
+1---10 number print
+
+
+#include <stdio.h>
+
+int main()
+{
+   for(int i=1;i<=10;i++){
+       printf("%d\n",i);
+   }
+
+    return 0;
+}
+
+2)
+1------>100 print
+
+
+#include <stdio.h>
+
+int main()
+{
+   for(int i=1;i<=100;i++){
+       printf("%d\n",i);
+   }
+
+    return 0;
+}
+
+
+
+3)
+100---10 number print
+#include <stdio.h>
+
+int main()
+{
+   for(int i=100;i>=10;i--){
+       printf("%d\n",i);
+   }
+
+    return 0;
+}
+
+
+4)
+34--->89 
+#include <stdio.h>
+
+int main()
+{
+   for(int i=34;i<=89;i++){
+       printf("%d\n",i);
+   }
+
+    return 0;
+}
+
+
+
+5)89--->23 
+
+#include <stdio.h>
+
+int main()
+{
+   for(int i=89;i>=23;i--){
+       printf("%d\n",i);
+   }
+
+    return 0;
+}
+
+
+6)
+1--->10 even number 
+
+#include <stdio.h>
+
+int main()
+{
+   for(int i=1;i<=10;i++){
+       
+       if(i%2==0){
+           
+           printf("%d\n",i);
+           
+       }
+   }
+       
+    return 0;
+}
+
+
+7)
+10--->1 even 
+
+#include <stdio.h>
+
+int main()
+{
+   for(int i=10;i>=1;i--){
+       
+       if(i%2==0){
+           
+           printf("%d\n",i);
+           
+       }
+   }
+       
+    return 0;
+}
+
+
+8)
+12-->78 odd number 
+
+#include <stdio.h>
+
+int main()
+{
+   for(int i=12;i<=78;i++){
+       
+       if(i%2!=0){
+           
+           printf("%d\n",i);
+           
+       }
+   }
+       
+    return 0;
+}
+
+
+
+9)sum of 1 to 100 number 
+
+#include <stdio.h>
+
+int main()
+{
+    int sum=0;
+   for(int i=1;i<=100;i++){
+       
+       sum=sum+i;
+   }   
+           printf("%d\n",sum);
+           
+       return 0;
+}
+
+
+10)
+n : 
+	f :starting point ending point (8--19) through for loop 
+	b:ending point starting point (80--19) through for loop 
+#include <stdio.h>
+int main()
+{
+    char alpha;
+    printf("enter the char n,e,o,s,i,a,r,p,m,t,g : ");
+    scanf("%c",&alpha);
+
+    if(alpha=='n'){
+        char ch;
+        printf("enter the char f or b : ");
+        scanf(" %c",&ch);
+
+    if(ch=='f'){
+        int i,s=8,e=19;
+       for(i=s;i<=e;i++){
+           printf("%d ",i);
+       }
+       }
+
+       else if(ch=='b'){
+       int i,e=80,s=19;
+       for(i=e;i>=s;i--){
+           printf("%d ",i);
+       }
+       }
+    }
+       return 0;
+    }
+
+
+e :
+	f :starting point ending point (8--19) through for loop even number
+	b :ending point starting point (80--19) through for loop even number
+#include<stdio.h>
+int main(){
+ char alpha;
+ printf("enter any character");
+ scanf(" %c",&alpha);
+
+
+if(alpha=='e'){
+        char ch;
+        printf("enter the char f or b : ");
+        scanf(" %c",&ch);
+
+    if(ch=='f'){
+        int i,s=8,e=19;
+       for(i=s;i<=e;i++){
+           if(i%2==0){
+           printf("%d ",i);
+       }
+       }
+    }
+
+       else if(ch=='b'){
+       int i,e=80,s=19;
+       for(i=e;i>=s;i--){
+            if(i%2==0){
+           printf("%d ",i);
+       }
+       }
+    }
+}
+    return 0;
+}
+    
+
+o :
+	f :starting point ending point (8--19) through for loop odd number
+	b :ending point starting point (80--19) through for loop odd number
+#include<stdio.h>
+int main(){
+ char alpha;
+ printf("enter any character");
+ scanf(" %c",&alpha);
+
+
+if(alpha=='o'){
+        char ch;
+        printf("enter the char f or b : ");
+        scanf(" %c",&ch);
+
+    if(ch=='f'){
+        int i,s=8,e=19;
+       for(i=s;i<=e;i++){
+           if(i%2!=0){
+           printf("%d ",i);
+       }
+       }
+    }
+
+       else if(ch=='b'){
+       int i,e=80,s=19;
+       for(i=e;i>=s;i--){
+            if(i%2!=0){
+           printf("%d ",i);
+       }
+       }
+    }
+    }
+    return 0;
+}
+    
+
+s:
+	f :starting point ending point (8--19) through for loop sum of number
+	b :ending point starting point (80--19) through for loop sum of number
+#include<stdio.h>
+int main(){
+ char alpha;
+ printf("enter any character");
+ scanf(" %c",&alpha);
+
+  if(alpha=='s'){
+        char ch;
+        printf("enter the char f or b : ");
+        scanf(" %c",&ch);
+
+    if(ch=='f'){
+        int i,s=8,e=19;
+        int sum=0;
+       for(i=s;i<=e;i++){
+          sum=sum+i;
+           printf("%d ",i);
+       }
+           printf("\nsum %d ",sum);
+       }
+
+       else if(ch=='b'){
+       int i,e=80,s=19;
+       int sum=0;
+       for(i=e;i>=s;i--){
+            sum=sum+i;
+            printf("%d ",i);
+       }
+           printf("\nsum %d ",sum);
+       }
+    }
+    return 0;
+}
+    
+
+i :
+	fibonacci
+#include<stdio.h>
+int main(){
+    
+char alpha;
+printf("enter the value of alpha");
+scanf(" %c",&alpha);
+
+ if(alpha=='i'){
+        int n1=0,n2=1,n3;
+        printf("%d %d",n1,n2);
+        for(int i=1;i<=5;i++){
+            n3=n1+n2;
+            printf(" %d ",n3);
+            n1=n2;
+            n2=n3;
+        }
+ }
+        return 0;
+ }
+
+a :
+	factorial 
+#include<stdio.h>
+int main(){
+    
+char alpha;
+printf("enter any character");
+scanf(" %c",&alpha);
+
+if(alpha=='a'){
+          int num;
+          printf("enter the value of num for factorial : ");
+          scanf("%d",&num);
+
+          int fact=1;
+          for(int i=1;i<=num;i++){
+              fact*=i;
+          }
+          printf("%d",fact);
+        }
+
+        return 0;
+ }
+
+r :
+	reverse number
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enter the character");
+    scanf(" %c",&ch);
+    
+    if(ch=='r'){
+        int num=1234321;
+        int rem,sum=0;
+        while(num>0){
+            rem=num%10;
+            sum=sum*10+rem;
+            num=num/10;
+    }
+    printf("%d",sum);
+    }
+    
+      
+    return 0;
+}
+
+p :
+	pallindrome 
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enter the character");
+    scanf(" %c",&ch);
+    
+   if(ch=='p'){
+       int num=12321;
+       int rem,sum=0;
+       int temp=num;
+       while(num>0){
+           rem=num%10;
+           sum=sum*10+rem;
+           num=num/10;
+           
+       }
+       printf("%d",sum);
+       if(temp==sum){
+           printf("pallindrome number");
+       }
+       else{
+           printf("not a pallindrome number");
+       }
+   }
+    return 0;
+}
+
+m :
+	armstrong 
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enter the character");
+    scanf(" %c",&ch);
+    
+    if(ch=='m'){
+        int num=153;
+        int rem,sum=0;
+        int temp=num;
+        while(num>0){
+            rem=num%10;
+            sum=sum+rem*rem*rem;
+            num=num/10;
+        }
+        printf("%d",sum);
+        
+        if(temp==sum){
+            printf("armstrong num");
+        }
+        else{
+            printf("not");
+        }
+    }
+    return 0;
+}
+
+t :
+	user input table print 
+#include<stdio.h>
+int main(){
+    
+    char alpha;
+    printf("enter any character");
+    scanf(" %c",&alpha);
+    if(alpha=='t'){
+            int i,num;
+            printf("enter the number for table : ");
+            scanf("%d",&num);
+            for(i=1;i<=10;i++){
+                printf(" %d\n",i*num);
+            }
+    }
+            return 0;
+    }
+
+g : gender 
+#include<stdio.h>
+int main(){
+    char ch;
+    printf("enter the character");
+    scanf(" %c",&ch);
+    
+    if(ch=='g'){
+        
+        char h;
+        printf("enter m for male and f for female ");
+        scanf(" %c",&h);
+        
+        if(h=='m'){
+            printf("male");
+        }
+        else if(h=='f'){
+            printf("female");
+        }
+        
+        else{
+            printf("others");
+        }
+    }
+    
+      
+    return 0;
+}
