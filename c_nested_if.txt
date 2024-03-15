@@ -726,10 +726,98 @@ int main ()
 16)
 five number maximum 
 equal :all elements are equal 
-when two number will then print 
+when two number will then print
+#include<stdio.h>
+int main ()
+{
+    int a=1, b=3, c=2, d=7, e=1;
+    if(a>b && a>c&& a>d && a>e){
+        printf("a is max");
+    }
+    else if(b>a  && b>c && b>d && b>e ){
+        printf(" b is max");
+    }
+    else if(c>a && c>b && c>d && c>e){
+        printf("c is max");
+    }
+    
+    else if(d>a && d>b && d>e && d>c){
+        printf("d is max");
+    }
+    else if(e>a && e>b && e>c && e>d){
+        printf("e is max");
+    }
+    
+    if(a==b){
+        printf("a and b is equal");
+    }
+    else if(a==c){
+        printf("a and c is equal");
+    }
+    else if(a==d){
+        printf("a and d is equal");
+    }
+    else if(a==e){
+        printf("a and e is equal");
+    }
+    else if(b==c){
+        printf("b and c is equal");
+    }
+    else if(b==d){
+        printf("b and d is equal");
+    }
+    else if(b==e){
+        printf("b and e is equal");
+    }
+    else if(c==d){
+        printf("c and d is equal");
+    }
+    else if(c==e){
+        printf("c and e is equal");
+    }
+    else if(d==e){
+        printf("d and e is equal");
+    }
+    else{
+        printf("all are equal");
+    }
+    return 0;
+}
+
 
 17)
 ten number maximum 
+#include<stdio.h>
+int main ()
+{
+    int a=1, b=3, c=2, d=7, e=1, f=3, g=2,h=5, i=9, j=5;
+    if(a>b && a>c&& a>d && a>e && a>f && a>g && a>h && a>i && a>j){
+        printf("a is max");
+    }
+    else if(b>a  && b>c && b>d && b>e && b>f && b>g && b>h && b>i && b>j){
+        printf(" b is max");
+    }
+    else if(c>a && c>b && c>d && c>e c>f && c>g && c>h && c>i && c>j){
+        printf("c is max");
+    }
+    
+    else if(d>a && d>b && d>c  && d>e && d>f && d>g && d>h && d>i && d>j){
+        printf("d is max");
+    }
+    else if(e>a && e>b && e>c && e>d && e>f && e>g && e>h && e>i && e>j){
+        printf("e is max");
+    }
+    else if(f>a && f>b && f>c && f>d && f>e && f>f && f>g && f>h && f>i && f>j ){
+        printf("f is max");
+    }
+    else if(g>a && g>b && g>c && g>d && g>e && g>f && g>h && g>i && g>j){
+        printf("g is max");
+    }
+   
+    
+   
+    return 0;
+}
 
 
 
